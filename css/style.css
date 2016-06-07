@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Pathway; 
+    src: url(../fonts/PathwayGothicOne-Regular.ttf);  
+ }
+ 
+ body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: Pathway, 'Myriad Pro Regular';
+    background-size: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+header, nav, ul, article, acide {
+    max-width: 100%;
+}
+
+
+nav {
+	max-width: 870px;
+	margin: 0 auto;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	padding-left: 0px;
+	max-width: 870px;
+}
+
+nav li {
+	display: inline;
+    padding-left: 60px;
+    padding-right: 50px;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+#firstli {
+	padding-left: 0;
+}
+
+#lastli {
+	padding-right: 0;
+}
+
+
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+header a {
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.content {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+main {
+    background-color: white;
+    padding: 5%;
+    max-width: 100%;
+}
+
+#slides {
+    max-width: 1126px;
+    margin: 0 auto;
+	max-width: 100%;
+}
+
+#slides img {
+    max-width: 100%;
+}
+
+.block1-title {
+    font-size: 38px;
+    font-weight: normal;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.slide-block {							
+	max-width: 100%;
+	max-height: 337px;
+}
+
+
+
+.top-slides  img{
+	max-width: 32%;
+	padding-right:2%;
+	float:left;
+}
+
+#third-slide img {
+	padding:0;
+}
+
+
+
+
+
+
+
