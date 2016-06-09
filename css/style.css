@@ -1,15 +1,15 @@
 @font-face {
     font-family: Pathway; 
-    src: url(../fonts/PathwayGothicOne-Regular.ttf);  
+    src: url(../fonts/PathwayGothicOne-Regular.ttf); 
  }
  
  body {
-    background-image: url(../images/background.jpg);
+    background: url(../images/bg_body.jpg) #d6bba0;;
     background-repeat: no-repeat;
     background-position: center top;
     font-family: Pathway, 'Myriad Pro Regular';
     background-size: 100%;
-    overflow-x: hidden;
+	overflow-x: hidden; 
     overflow-y: auto;
     padding-left: 5%;
     padding-right: 5%;
@@ -118,9 +118,45 @@ main {
 	padding:0;
 }
 
+article {
+	width: 58%;
+	height: 500px;
+	border: 1px solid #dedbdb;
+	margin: 70px 25px 0 0;
+}
+
+section {
+	height: 50%;
+}
+
+article img {
+	float:left;
+	padding: 15px;	
+}
+
+.inf-text {
+	padding: 15px;
+}
+
+.bottom-block {
+	background: #30455b;
+	height: 115px;
+}
+
+footer .social-netw-icons {
+	text-align: center;
+}
+
+footer .social-netw-icons a {
+    display: inline-block;
+}
+
+footer .social-netw-icons img {
+	padding: 25px 7px 25px 0;
+	width: 46px;
+}
 
 
-
-
-
-
+.social-netw-icons  a:hover {
+	opacity:0.5;
+}
