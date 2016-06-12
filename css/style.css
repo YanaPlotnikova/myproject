@@ -4,12 +4,12 @@
  }
  
  body {
-    background: url(../images/bg_body.jpg) #d6bba0;;
+    background: url(../images/bg-body.jpg) #d6bba0;
     background-repeat: no-repeat;
     background-position: center top;
-    font-family: Pathway, 'Myriad Pro Regular';
     background-size: 100%;
-	overflow-x: hidden; 
+	font-family: Pathway, 'Myriad Pro Regular';
+/*	overflow-x: hidden; */
     overflow-y: auto;
     padding-left: 5%;
     padding-right: 5%;
@@ -21,8 +21,10 @@ header, nav, ul, article, acide {
 
 
 nav {
-	max-width: 870px;
+	background: #FFFFE0;
 	margin: 0 auto;
+	width: 870px;
+	max-width: 870px;
 }
 
 nav ul {
@@ -30,13 +32,14 @@ nav ul {
     padding-top: 30px;
     padding-bottom: 30px;
 	padding-left: 0px;
-	max-width: 870px;
+	background: #FFD700;
 }
 
 nav li {
 	display: inline;
     padding-left: 60px;
     padding-right: 50px;
+	background: #CD5C5C;
 	display: table-cell;
     vertical-align: middle;
 }
@@ -75,7 +78,9 @@ header a:hover {
 
 .content {
     max-width: 1270px;
+	min-width: 870px;
     margin: 0 auto;
+	background: #FFC0CB;
 }
 
 main {
@@ -84,13 +89,15 @@ main {
     max-width: 100%;
 }
 
-#slides {
+#main-slide {
+
     max-width: 1126px;
     margin: 0 auto;
 	max-width: 100%;
 }
 
-#slides img {
+#main-slide img {
+
     max-width: 100%;
 }
 
@@ -104,38 +111,77 @@ main {
 .slide-block {							
 	max-width: 100%;
 	max-height: 337px;
+	background: #CD5C5C;
 }
 
 
 
-.top-slides  img{
+.top-slides  img {
 	max-width: 32%;
 	padding-right:2%;
 	float:left;
 }
 
 #third-slide img {
-	padding:0;
+	padding: 0;
+}
+
+
+
+div.top-slides :hover  div.news-details {
+	display: block;
+	z-index: 5;
+}
+
+.news-details {
+	display: none;
+	background: #889;
+	color: white;
+	max-width: 80%;
 }
 
 article {
-	width: 58%;
+	width: 68%;
 	height: 500px;
 	border: 1px solid #dedbdb;
 	margin: 70px 25px 0 0;
+	float:left;
 }
 
 section {
 	height: 50%;
+	max-width: 100%;
 }
 
 article img {
-	float:left;
-	padding: 15px;	
+	max-width: 100%;
 }
 
-.inf-text {
-	padding: 15px;
+.inf-img {
+	padding: 2% 0 2% 2%;
+	width: 35%;
+	background: #dedbdb;
+	float:left;
+}
+
+section .inf-text {
+	font: normal, 13pt, Arial Regular, sans-serif; 
+	width: 57%;
+	height: 57%;
+	padding: 2% 3% 2% 3%;
+	float: left;
+	background: #951;
+
+}
+
+aside {	
+	border: 1px solid #dedbdb;
+	width: 28%;
+	height: 500px;
+	margin: 70px 0 0 0;
+	float: right;
+
+
 }
 
 .bottom-block {
@@ -145,6 +191,7 @@ article img {
 
 footer .social-netw-icons {
 	text-align: center;
+	background:	#778899;
 }
 
 footer .social-netw-icons a {
@@ -160,3 +207,8 @@ footer .social-netw-icons img {
 .social-netw-icons  a:hover {
 	opacity:0.5;
 }
+
+
+
+
+
