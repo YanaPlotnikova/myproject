@@ -21,7 +21,6 @@ header, nav, ul, article, acide {
 
 
 nav {
-	background: #FFFFE0;
 	margin: 0 auto;
 	width: 870px;
 	max-width: 870px;
@@ -32,14 +31,12 @@ nav ul {
     padding-top: 30px;
     padding-bottom: 30px;
 	padding-left: 0px;
-	background: #FFD700;
 }
 
 nav li {
 	display: inline;
     padding-left: 60px;
     padding-right: 50px;
-	background: #CD5C5C;
 	display: table-cell;
     vertical-align: middle;
 }
@@ -80,7 +77,6 @@ header a:hover {
     max-width: 1270px;
 	min-width: 870px;
     margin: 0 auto;
-	background: #FFC0CB;
 }
 
 main {
@@ -97,7 +93,6 @@ main {
 }
 
 #main-slide img {
-
     max-width: 100%;
 }
 
@@ -111,7 +106,6 @@ main {
 .slide-block {							
 	max-width: 100%;
 	max-height: 337px;
-	background: #CD5C5C;
 }
 
 
@@ -160,7 +154,6 @@ article img {
 .inf-img {
 	padding: 2% 0 2% 2%;
 	width: 35%;
-	background: #dedbdb;
 	float:left;
 }
 
@@ -170,8 +163,6 @@ section .inf-text {
 	height: 57%;
 	padding: 2% 3% 2% 3%;
 	float: left;
-	background: #951;
-
 }
 
 aside {	
@@ -180,18 +171,14 @@ aside {
 	height: 500px;
 	margin: 70px 0 0 0;
 	float: right;
-
-
 }
 
-.bottom-block {
-	background: #30455b;
-	height: 115px;
+#aside-title {
+    text-align:center;
 }
 
 footer .social-netw-icons {
 	text-align: center;
-	background:	#778899;
 }
 
 footer .social-netw-icons a {
