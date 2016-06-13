@@ -3,6 +3,24 @@
     src: url(../fonts/PathwayGothicOne-Regular.ttf); 
  }
  
+@media (max-width: 1024px)
+{
+	#main-slide {
+		display: none;
+	}
+	
+	.block1-title {
+		font-size: 38px;
+		font-weight: normal;
+		margin-bottom: 60px;
+	}
+	
+	section, aside {
+		float: none;
+		width: 100%;
+	}
+}
+ 
  body {
     background: url(../images/bg-body.jpg) #d6bba0;
     background-repeat: no-repeat;
@@ -34,7 +52,6 @@ nav ul {
 }
 
 nav li {
-	display: inline;
     padding-left: 60px;
     padding-right: 50px;
 	display: table-cell;
@@ -86,7 +103,6 @@ main {
 }
 
 #main-slide {
-
     max-width: 1126px;
     margin: 0 auto;
 	max-width: 100%;
@@ -99,7 +115,7 @@ main {
 .block1-title {
     font-size: 38px;
     font-weight: normal;
-    margin-top: 60px;
+	margin-top: 60px;
     margin-bottom: 60px;
 }
 
@@ -116,28 +132,37 @@ main {
 	float:left;
 }
 
+
 #third-slide img {
 	padding: 0;
 }
 
-
-
-div.top-slides :hover  div.news-details {
-	display: block;
-	z-index: 5;
+.top-slides {
+	position: relative;
 }
 
 .news-details {
 	display: none;
-	background: #889;
 	color: white;
-	max-width: 80%;
+	width: 183px;
+	height: 327px;
+	position: absolute;
+	padding: 11px;
+	overflow: hidden;
 }
+
+div.top-slides:hover div.news-details{
+	display: block;
+	background-color: #193149;
+}
+
+
 
 article {
 	width: 68%;
 	height: 500px;
 	border: 1px solid #dedbdb;
+	border-radius: 3px 3px 0 0;
 	margin: 70px 25px 0 0;
 	float:left;
 }
@@ -167,6 +192,7 @@ section .inf-text {
 
 aside {	
 	border: 1px solid #dedbdb;
+	border-radius: 3px 3px 0 0;
 	width: 28%;
 	height: 500px;
 	margin: 70px 0 0 0;
@@ -174,8 +200,18 @@ aside {
 }
 
 #aside-title {
-    text-align:center;
+	text-align: center;
+	border-bottom: 1px solid #dedbdb;
+	background-color: #fcfafa;
+	padding: 10px;
 }
+
+#aside-wrapper {
+	padding: 15px;
+	width: 100%;
+	margin: 0 auto;
+}
+
 
 footer .social-netw-icons {
 	text-align: center;
@@ -194,8 +230,5 @@ footer .social-netw-icons img {
 .social-netw-icons  a:hover {
 	opacity:0.5;
 }
-
-
-
 
 

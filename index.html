@@ -30,12 +30,12 @@
         <div class="slide-block">
 			<div  class="top-slides" id="first-slide">
 				<img src="images/small-slide1.jpg" alt="top-destination1">
-				<div class="news-details"><h2>VENICE</h2>Venice is a beautiful city located in northeast Italy that is famous for its intricate transport system of interconnected canals. A perfect setting for a magical Valentines break. It has been described as the most beautiful city built by man and one of Europe’s most romantic cities. Venice is also known for its art, architecture and culture. So you’ll never be short of something to do in the “City of Bridges”.</div>
+				<div class="news-details"><h2>VENICE</h2><br>Venice is a beautiful city located in northeast Italy that is famous for its intricate transport system of interconnected canals. A perfect setting for a magical Valentines break. It has been described as the most beautiful city built by man and one of Europe's most romantic cities. Venice is also known for its art, architecture and culture. So you'll never be short of something to do in the "City of Bridges".</div>
 			</div>
 				
-            <div  class="top-slides">
+            <div  class="top-slides" id="second-slide">
                 <img src="images/small-slide2.jpg" alt="top-destination2">
-				<div class="news-details"><h2>NEW-YORK</h2>Venice is a beautiful city located in northeast Italy that is famous for its intricate transport system of interconnected canals. A perfect setting for a magical Valentines break. It has been described as the most beautiful city built by man and one of Europe’s most romantic cities. Venice is also known for its art, architecture and culture. So you’ll never be short of something to do in the “City of Bridges”.</div>
+				<div class="news-details"><h2>NEW-YORK</h2>A trip to New York City is the experience of a lifetime. With famous attractions like Times Square, Central Park, the Empire State Building and Yankee Stadium-to name just a few-NYC packs more to see and do into one compact area than any other place on earth. Each of the City's five boroughs contains its own roster of must-see destinations, great restaurants, cultural hot spots and unforgettable activities. Start planning your trip with the guides on this page.</div>
             </div>
             <div  class="top-slides" id="third-slide">
                 <img src="images/small-slide3.jpg" alt="top-destination3">
@@ -62,12 +62,26 @@
         </article>
         <aside>
 			<div id="aside-title">CONTACT US</div>
+			<div id="aside-wrapper">
+				<form id="userform">
+					<label>Name<br>
+					<input type="text" id="username" name="user-name-input">
+					</label><br><br>
+					<label>Email<br>
+					<input type="email" id="email" name="email-input">
+					</label><br><br>
+					<label>Your wishes<br>
+					<textarea rows="10" id="textmessage" name="text-message-input"></textarea>
+					</label><br><br>
+					<button id="btn-send" name="send-button">Send</button>
+					<div id="container">
+					</div>
+				</form>				
+			</div>
         </aside> 
 		<div class="clear"></div>
 	
     </main>
-	<div class="bottom-block">
-	</div>	
     <footer>
 		<div class="social-netw-icons">
 			<a href="#"><img src="images/twitter-icon.png" alt="twitter-icon"></a>
@@ -77,5 +91,8 @@
 		</div>
     </footer>
 </div>
+
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
